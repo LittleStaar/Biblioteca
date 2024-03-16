@@ -1,0 +1,106 @@
+h1{
+    color: rgb(139, 7, 128);
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(232, 147, 232);
+}
+h2{
+    color: rgb(139, 7, 128);
+    font-size: 25px;
+    text-align: center;
+}
+h3{
+    color: rgb(139, 7, 128);
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(232, 147, 232);
+}
+h4{
+    color: rgb(139, 7, 128);
+    background-color: rgb(232, 147, 232);
+    font-size: 30px;
+    text-align: center;    
+}
+h5{
+    color: rgb(139, 7, 128);
+    background-color: rgb(232, 147, 232);
+    font-size: 35px;
+    text-align: center;    
+}
+ul{
+    color: rgb(139, 7, 128);
+    background-color: rgb(232, 147, 232);
+    font-size:  25px;
+    font-weight: bold;
+}
+.sem-cor{
+    color: rgb(139, 7, 128);
+    font-size:  25px;
+    margin-left: 215px;
+}
+.margem{
+    background-color: rgb(232, 147, 232);
+    color: rgb(139, 7, 128);
+    font-size:  30px;
+    list-style-type: disc;
+    font-weight: bold;
+}
+    
+ol{
+    color: rgb(139, 7, 128);
+    font-size: 23px;
+}
+body{
+    background-color: rgb(245, 193, 250);
+    margin: 2%;
+    font-family: Calibri;
+}
+table{
+    color: rgb(139, 7, 128);
+    background-color: rgb(255, 211, 255);
+    border-color: rgb(98, 8, 90);
+    font-size: 22px;
+    width: 80;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr, td{
+    border-color: rgb(98, 8, 90);
+    padding: 7px;
+}
+.centro {
+    text-align: center; 
+}
+.botao {
+    padding: 10px 10px;
+    font-size: 10px;
+    border: 2px solid rgb(139, 7, 128);
+    background-color: rgb(245, 193, 250);
+    color:rgb(139, 7, 128);
+    cursor: pointer;
+    outline: none; 
+    transition: background-color 0.3s ease; 
+    text-decoration: none;
+    font-size: 20px;
+}
+.botao:hover {
+    background-color:rgb(232, 147, 232);
+}
+.estrelas { /*retangulo azul*/
+    background-color: rgb(245, 193, 250);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;
+    text-align: center;
+}
+.texto { /*texto do retangulo azul*/
+    color: rgb(139, 7, 128);
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px; /* Espaço entre os textos */
+}
+div.imagem{
+    float: left;
+}
